@@ -62,4 +62,4 @@ gmRequest:
 
 *dynamic*: Whether the renderer should reach out to Goodmeasure each time or cache its original results. When forging and split testing you will always want this to be true.
 
-*gmRequest*: Object describing the GM request to make before rendering the template. See the blacksmith batch documentation for full details
+*gmRequest*: Object describing the GM request to make before rendering the template. See the [blacksmith batch documentation](http://goodmeasure.readthedocs.io/en/latest/blacksmith.html#batching) for full details
