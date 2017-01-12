@@ -1,0 +1,14 @@
+{# this is the place to add macros/functions #}
+
+{%- macro headStuff(config, context, bodyClass) -%}
+<!doctype html>
+<html class="no-js" lang="en-US">
+    <head>
+        <meta charset="utf-8">
+        <title>{{context.metaTitle}} | {{config.titleSuffix }}</title>
+        <meta name="description" content="{{context.metaDescription}}">
+        <meta name="keywords" content="{{context.metaKeywords}}">
+        <meta name="application-name" content="{{config.siteName}}" />
+    </head>
+    <body lang="en">
+{%- endmacro -%}

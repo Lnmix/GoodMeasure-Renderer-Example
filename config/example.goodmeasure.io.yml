@@ -1,0 +1,7 @@
+siteName: Example Site
+metaKeywords: x,y,z
+metaDescription: a description
+
+sitemap:
+  /:
+    template: index.html

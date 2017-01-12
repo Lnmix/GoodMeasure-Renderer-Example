@@ -1,0 +1,23 @@
+<<--
+dynamic: true
+gmRequest:
+  type: forge
+  blueprint: Meta
+  source:
+    persistsplit: true
+-->>
+{%- import "__macros.html" as macros -%}
+{{ macros.headStuff(config, item, 'home') }}
+<<--
+dynamic: true
+gmRequest:
+  type: forge
+  blueprint: Site
+  source:
+    persistsplit: true
+-->>
+
+Hello, world This is where you do all the stuff and things
+
+</body>
+</html>
