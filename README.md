@@ -8,14 +8,14 @@ Step 2: Connect GoodMeasure's Github bot to this repo (instructions in time).
 
 Step 3: Start editing your site!
 
-Your GoodMeasure rendered site is powered by three folders in this repo: config, partials and templates. Feel free to include anything else in your repo (build tools, etc), anything outside of those folders will be ignore by GoodMeasure.
+Your GoodMeasure rendered site is powered by three folders in this repo: config, partials and templates. Feel free to include anything else in your repo (build tools, etc), anything outside of those folders will be ignored by GoodMeasure.
 
 
 *Config*
 
 Change the name of your config document from `example.goodmeasure.io.yml` to `yourclientid.goodmeasure.io.yml`
 
-Our config files are in yml, we recommend http://www.yamllint.com/ it check your config files.
+Our config files are in yml, we recommend http://www.yamllint.com/ to check your config files.
 
 Your site config file requires at least a sitemap object. The sitemap object is how you tie paths to templates
 
