@@ -9,7 +9,13 @@ gmRequest:
 {%- import "__macros.html" as macros -%}
 {{ macros.headStuff(config, item, 'home') }}
 
-{% include "greeting.html" %}
-<q:foo>
+Hello, checkout your session and geodata!<br/>
+
+<br/>
+This is your requestid: {requestid}.
+<br/><br/>
+Let's link around, shall we?<br/>
+
+{% include "geo.html" %}
 </body>
 </html>

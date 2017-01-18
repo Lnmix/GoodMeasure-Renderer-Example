@@ -5,3 +5,7 @@ metaDescription: a description
 sitemap:
   /:
     template: index.html
+  /session:
+    template: session.html
+  /wildcard/*/qs:
+    template: qs.html

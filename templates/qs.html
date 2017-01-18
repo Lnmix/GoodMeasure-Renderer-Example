@@ -9,7 +9,15 @@ gmRequest:
 {%- import "__macros.html" as macros -%}
 {{ macros.headStuff(config, item, 'home') }}
 
-{% include "greeting.html" %}
-<q:foo>
+Hello, checkout your session and geodata!<br/>
+
+<br/>
+This is your requestid: {requestid}.
+<br/><br/>
+Query String Variables!!<br/>
+<br/>
+foo: <q:foo><br/>
+hello: <q:hello><br/>
+
 </body>
 </html>
